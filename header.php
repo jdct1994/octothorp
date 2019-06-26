@@ -14,17 +14,17 @@
     </h1>
     <h2><?php bloginfo('description');?></h2>
     <nav>
-      <ul class="nav">
-          <?php wp_list_pages( array('title_li' => '',)); ?> 
-      <ul>
-            <li><a href="">Item-1</a></li>
-            <li><a href="">Item-2</a></li>
-            <li><a href="">Item-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
+        <ul class="nav">
+            <?php wp_list_pages( array('title_li' => '',)); ?> 
+            <ul>
+                <li><a href="">Item-1</a></li>
+                <li><a href="">Item-2</a></li>
+                <li><a href="">Item-3</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
     </nav>
 
     <?php get_search_form(); //default search bar or optionally add searchform.php ?>
